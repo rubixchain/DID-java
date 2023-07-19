@@ -65,7 +65,7 @@ Every node joining the Rubix network must create a DID. There is an option for c
 
 The creation process is a logic that combines a 256x256 image and a system generated hash value. The image chosen here is a standard image used for all DID creations across the network. The hash value on the other hand, is the hashed value of the peerID of the node, which is in turn generated during node setup by IPFS protocol. The combination of both is a hash value which is then used as a DID for the node.
 
-The DID is further split into two parts, namely [Public Share](https://learn.rubix.net/public-share/) and [Private Share](https://learn.rubix.net/private-share/). These parts are used during various athentication and data transfer scenarios. More about this can be found on the above links.
+The DID is further split into two parts, namely [Public Share](https://learn.rubix.net/public-share/) and [Private Share](https://learn.rubix.net/private-share/). These parts are used during various authentication and data transfer scenarios. More about this can be found on the above links.
 
 ### Use Cases
 
@@ -92,7 +92,7 @@ A DID-oriented blockchain can be used for applications that are currently runnin
 
 ### Other possibilities
 
-The creation logic could be improved or made more effecient and still provide a similar level of functionality.
+The creation logic could be improved or made more efficient and still provide a similar level of functionality.
 
 <blockquote class="Rubix-tweet"><p lang="en" dir="ltr">Crypto, public chains will transform the access management enormously for the better. In Rubix, every node/user gets #DID automatically assigned,can build verifiable claims around it,build DNS, build alternatives to #SAML & much more</p>&mdash; Rubix (@rubixchain) <a href="https://twitter.com/RubixChain/status/1484763352966447104">January 22, 2022</a></blockquote> <script async src="https://platform.Rubix.com/widgets.js" charset="utf-8"></script>
 
